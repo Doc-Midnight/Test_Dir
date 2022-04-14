@@ -1,4 +1,4 @@
-County,long,lat,group,order,State,Diocese
+County,long,lat,group,order,State,sregion
 Apache,-109.2917023,33.77586365,68,3165,Arizona,Gallup
 Apache,-109.8474655,35.13950348,68,3194,Arizona,Gallup
 Apache,-109.8474655,34.13682556,68,3191,Arizona,Gallup
