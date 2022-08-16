@@ -20,28 +20,34 @@ output:
       tabularx: null
       threeparttable: ["para", "online", "flushleft"]
       hyperref: null
-  html_notebook:
-    number_sections: yes
+  html_document:
     toc: yes
     fig_caption: yes
     df_print: paged
-  html_document:
+  html_notebook:
+    number_sections: yes
     toc: yes
     fig_caption: yes
     df_print: paged
 classoption: "nopatch"
 ---
 
+
 ```{r setup, echo = FALSE, message = FALSE, results = 'hide'}
+
+options(knitr.table.format = "latex")
+
 # Packages/Libraries can go here:
 library(readxl)
-library(kableExtra)
 library(ggplot2)
+suppressWarnings(library(kableExtra))
 library(ggforce)
 library(dplyr)
 library(shotGroups)
 library(viridis)
 library(scales)
+
+
 
 # Options
 knitr::opts_chunk$set(
@@ -62,8 +68,8 @@ knitr::opts_chunk$set(
 
 ```
 
-# Introduction
 
+# Introduction
 
 
 
